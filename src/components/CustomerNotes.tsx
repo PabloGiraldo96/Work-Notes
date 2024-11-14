@@ -268,13 +268,14 @@ export default function CustomerNotes() {
                     <strong>Tablet Version:</strong> {note.icapidModel}
                   </p>
                   <p>
-                    <strong>Symptom:</strong> {note.symptom}
+                    <strong>Symptom/Issue: </strong> {note.symptom}
                   </p>
                   <p>
-                    <strong>Troubleshooting:</strong> {note.troubleshooting}
+                    <strong>Troubleshooting Completed/Solution: </strong>{" "}
+                    {note.troubleshooting}
                   </p>
                   <p>
-                    <strong>Resolution:</strong> {note.resolution}
+                    <strong>Recommended Steps: </strong> {note.resolution}
                   </p>
                 </div>
               </CardContent>
