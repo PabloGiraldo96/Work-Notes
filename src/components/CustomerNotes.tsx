@@ -193,7 +193,7 @@ export default function CustomerNotes() {
             {/* Textareas */}
             <div className="space-y-4 mt-6">
               <div className="space-y-2">
-                <Label htmlFor="symptom">Symptom/Issue</Label>
+                <Label htmlFor="symptom">Symptom/Issue: </Label>
                 <Textarea
                   id="symptom"
                   name="symptom"
@@ -203,7 +203,9 @@ export default function CustomerNotes() {
                 />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="troubleshooting">Troubleshooting Steps</Label>
+                <Label htmlFor="troubleshooting">
+                  Troubleshooting Completed/Solution:
+                </Label>
                 <Textarea
                   id="troubleshooting"
                   name="troubleshooting"
@@ -213,7 +215,7 @@ export default function CustomerNotes() {
                 />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="resolution">Resolution Steps</Label>
+                <Label htmlFor="resolution">Recommended Steps: </Label>
                 <Textarea
                   id="resolution"
                   name="resolution"
